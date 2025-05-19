@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Materiais de Limpeza</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #1e88e5; color: white; padding: 20px; text-align: center; }
+    nav { background: #1565c0; color: white; text-align: center; padding: 10px; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; }
+    section { padding: 40px 20px; }
+    .galeria { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .galeria img { width: 200px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
+    form { max-width: 400px; margin: auto; display: flex; flex-direction: column; gap: 10px; }
+    input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #1e88e5; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; }
+    footer { background: #eee; text-align: center; padding: 20px; font-size: 14px; }
+    .whatsapp { position: fixed; bottom: 20px; right: 20px; background: #25D366; color: white; padding: 15px; border-radius: 50%; font-size: 20px; text-decoration: none; box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Loja Limpeza Total</h1>
+    <p>Os melhores produtos de limpeza para sua casa ou empresa</p>
+  </header>
+
+  <section id="produtos">
+    <h2 style="text-align: center;">Galeria de Produtos</h2>
+    <div class="galeria">
+      <img src="https://via.placeholder.com/200x200?text=Desinfetante" alt="Desinfetante">
+      <img src="https://via.placeholder.com/200x200?text=Sab%C3%A3o+L%C3%ADquido" alt="Sabão Líquido">
+      <img src="https://via.placeholder.com/200x200?text=Esponjas" alt="Esponjas">
+      <img src="https://via.placeholder.com/200x200?text=Luvas" alt="Luvas">
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2 style="text-align: center;">Fale Conosco</h2>
+    <form action="mailto:seuemail@example.com" method="POST" enctype="text/plain">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <a class="whatsapp" href="https://wa.me/5521991737213" target="_blank">W</a>
+
+  <footer>
+    &copy; 2025 Loja Limpeza Total. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
